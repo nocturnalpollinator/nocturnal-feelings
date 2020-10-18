@@ -1,0 +1,60 @@
+{
+    "workbench.colorTheme": "Dracula Soft",
+    "editor.fontFamily": "FiraCode-Retina",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "500",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "city-lights-icons-vsc-light",
+    "zenMode.hideLineNumbers": false,
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#ff5555",
+        // "editorGutter.background": "#fdf6e3",
+        // "activityBar.background": "#ddd6c1"
+    },
+    "sync.gist": "7244d3eb8da50089fc7f1c712c8e496c",
+    "workbench.view.experimental.allowMovingToNewContainer": true,
+    "explorer.confirmDragAndDrop": false,
+    "files.exclude": {
+        "**/.git": false
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "punctuation.section.embedded.begin.php",
+                    "punctuation.section.embedded.end.php"
+                ],
+                "settings": {
+                    "foreground": "#ff0000"
+                }
+            },
+            {
+                "scope": "keyword",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "storage",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "constant.language",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "support.class.builtin",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    "explorer.compactFolders": false,
+    "diffEditor.ignoreTrimWhitespace": false
+}
